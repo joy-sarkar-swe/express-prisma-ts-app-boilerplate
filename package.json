@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "ts-node src/index.ts",
+    "build": "node api.js && tsc",
+    "dev": "node api.js && ts-node src/index.ts",
     "start:dev": "nodemon src/index.ts",
-    "start": "node dist/index.js",
+    "start": "node api.js && node dist/index.js",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "prettier": "prettier --check 'src/**/*.{ts,tsx}'",
