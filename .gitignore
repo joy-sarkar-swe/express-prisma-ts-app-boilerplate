@@ -10,8 +10,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Environment variables
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -90,7 +88,6 @@ dist/
 .tern-port
 
 # IDEs and editors
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db
@@ -101,3 +98,4 @@ Thumbs.db
 *.swn
 *.bak
 *.orig
+config.bat
